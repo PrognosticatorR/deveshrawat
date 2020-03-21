@@ -1,10 +1,11 @@
 import React, { Fragment } from 'react';
+import Home from './components/Home';
 
 function App() {
     return (
-        <Fragment>
-            <h1>Devesh Rawat</h1>
-        </Fragment>
+        <div style={{ width: '100%', height: '100vh' }}>
+            <Home />
+        </div>
     );
 }
 
